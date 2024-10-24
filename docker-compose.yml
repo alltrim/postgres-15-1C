@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-    pg_test_v3:
+    master:
         image: alltrim/postgres:15-1C
         networks:
             - net
