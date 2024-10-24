@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+    pg_test_v3:
+        image: alltrim/postgres:15-1C
+        networks:
+            - net
+        ports:
+            - 5432:5432
+        volumes:
+            - data:/var/lib/pgpro/1c-15/data
+
+
+networks:
+    net:
+
+
+volumes:
+    data:
+
