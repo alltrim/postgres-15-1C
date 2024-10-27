@@ -10,11 +10,9 @@ services:
         volumes:
             - data:/var/lib/pgpro/1c-15/data
 
-
 networks:
     net:
 
 
 volumes:
     data:
-
